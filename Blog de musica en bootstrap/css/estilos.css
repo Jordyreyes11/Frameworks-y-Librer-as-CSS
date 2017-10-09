@@ -1,0 +1,24 @@
+.logo-img {
+  width: 100px;
+  padding: 5px;
+}
+.logos-header {
+  width: 30px;
+}
+.section1 {
+  padding-left: 50px;
+  background-color: white;
+}
+.beatles {
+  width: 100%
+}
+body {
+  background-color: red;
+}
+header {
+  background-color: white;
+}
+.imagen_art {
+  width: 25%;
+  float: right;
+}
