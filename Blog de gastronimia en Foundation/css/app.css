@@ -1,0 +1,15 @@
+div{
+  border: 1px solid black;
+}
+
+body{
+  background-image: url("../img/partes-de-la-cocina.jpg");
+  background-color: #cccccc;
+}
+
+.contenido {
+  background-color: #862C84;
+  width: 90%;
+  margin: auto;
+  opacity: 0.9;
+}

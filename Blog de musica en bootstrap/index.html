@@ -29,10 +29,9 @@
         </div>
       </div>
 
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
               <li><a href="#">Artistas</a></li>
@@ -41,9 +40,9 @@
               <li><a href="#">Letras</a></li>
               <li><a href="#">Acordes</a></li>
             </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
+          </nav>
+        </div>
+      </div>
     </header>
     <section class="container">
       <div class="row section1">
@@ -51,27 +50,43 @@
           <div class="articulo1">
             <h2>Tributo a los Beatles</h2>
             <p>
-              <img class="imagen_art" src="img/beatles.jpg" alt="Los Beatles" />
+              <img class="imagen_art1" src="img/beatles.jpg" alt="Los Beatles" />
               Un concierto de los Abbey Road equivale a un túnel hacia otra dimensión, a sumergirse en la música de los 60. Con un sonido impecable y un repertorio que recoge los más grandes éxitos de la banda Británica durante el periodo 1962 – 1966 y ahora amplia su repertorio a la segunda época, hasta 1970.
               <br>
               Los ABBEY ROAD se enfrentan al reto de ejecutar en directo las canciones que los Beatles grabaron, pero nunca tocaron en directo.
               <br>
               En el The Beatles Show de los Abbey Road se incorporan cambios de vestuario confeccionados siguiendo el patrón de los originales.
             </p>
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            <div class="form-group">
+              <textarea placeholder="Comentario..." class="form-control" rows="2" id="comment"></textarea>
+            </div>
           </div>
           <div class="articulo2">
             <h2>Navegaci&oacute;n por los Planetas</h2>
             <p>
-              <img class="imagen_art" src="img/planetas.jpg" alt="Los Planetas" />
-              Un concierto de los Abbey Road equivale a un túnel hacia otra dimensión, a sumergirse en la música de los 60. Con un sonido impecable y un repertorio que recoge los más grandes éxitos de la banda Británica durante el periodo 1962 – 1966 y ahora amplia su repertorio a la segunda época, hasta 1970.
+              <img class="imagen_art2" src="img/planetas.jpg" alt="Los Planetas" />
+              El Sistema Solar esta compuesto por el Sol y nueve planetas que giran en torno a él con sus respectivos satélites, moviéndose dentro de una masa gaseosa llamada gas interestelar, dentro de la cual existe además una enorme cantidad de asteroides y cometas. Hacemos la aclaración que hemos incluido a Plutón, al que la astronomía ha dejado de considerar como planeta. El Sol posee aproximadamente el 99% de la materia total de todo el sistema, mientras que los planetas, satélites y asteroides, solo el 1% restante.
               <br>
-              Los ABBEY ROAD se enfrentan al reto de ejecutar en directo las canciones que los Beatles grabaron, pero nunca tocaron en directo.
-              <br>
-              En el The Beatles Show de los Abbey Road se incorporan cambios de vestuario confeccionados siguiendo el patrón de los originales.
+              El Sistema Solar está situado en uno de los tres brazos en espiral de esta galaxia llamado Orión, a unos 32.000 años luz del núcleo, alrededor del cual gira a la velocidad de 250 km por segundo, empleando 225 millones de años en dar una vuelta completa, lo que se denomina año cósmico.
             </p>
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            <div class="form-group">
+              <textarea placeholder="Comentario..." class="form-control" rows="2" id="comment"></textarea>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 menu-left">
+          <div id="custom-search-input">
+                <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="Buscar" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
           <ul class="list-group">
             <li class="list-group-item">Revolution 9</li>
             <li class="list-group-item">Honey Pie</li>

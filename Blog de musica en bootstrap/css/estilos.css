@@ -18,7 +18,89 @@ body {
 header {
   background-color: white;
 }
-.imagen_art {
-  width: 25%;
-  float: right;
+.imagen_art1 {
+  width: 100%;
+  float: none;
+  margin: 10px;
+}
+
+.imagen_art2 {
+  width: 100%;
+  float: none;
+  margin: 10px;
+}
+
+.articulo2 {
+  margin-top: 50px;
+}
+
+.navbar {
+  background-color: orange;
+}
+
+.menu-left {
+  display: none;
+}
+
+@media screen and (min-width:900px) {
+  .navbar-nav {
+      margin: 0;
+      display: table;
+      float: none;
+      width: 100%;
+    }
+
+    .navbar-nav>li {
+      float: none;
+      display: table-cell;
+      text-align: center;
+  }
+
+  .imagen_art1 {
+    width: 25%;
+    float: right;
+    margin: 10px;
+  }
+
+  .imagen_art2 {
+    width: 25%;
+    float: left;
+    margin: 10px;
+  }
+  .menu-left {
+    display: block !important;
+  }
+}
+
+/*Para el buscadr*/
+#custom-search-input{
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
 }
