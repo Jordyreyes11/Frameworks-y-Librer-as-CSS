@@ -1,15 +1,58 @@
-div{
-  border: 1px solid black;
-}
-
 body{
   background-image: url("../img/partes-de-la-cocina.jpg");
   background-color: #cccccc;
+  background-attachment: fixed;
 }
 
 .contenido {
-  background-color: #862C84;
+  background-color: rgba(130, 133, 203, 0.8);
   width: 90%;
   margin: auto;
-  opacity: 0.9;
+}
+
+.menu_izquierdo {
+  background-color: #c6d2f7;
+  padding: 20px;
+  margin: 10px;
+}
+
+.menu {
+  border-style: solid;
+  border-color: #f7c6f4;
+}
+
+.favoritos {
+  margin-top: 20px;
+}
+
+.historial {
+  margin-top: 20px;
+}
+
+.post {
+  background-color:#f7c6f4;
+  padding: 20px;
+  margin: 10px;
+}
+
+.comentario{
+  padding: 10px;
+}
+.comentario img{
+  float: left;
+  width: 50px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width:900px) {
+  .header {
+    display: none !important;
+  }
+  .menu_izquierdo {
+    display: none !important;
+  }
+  .principal_page {
+    width: 100%;
+  }
+
 }
