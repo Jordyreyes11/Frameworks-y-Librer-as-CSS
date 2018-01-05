@@ -1,0 +1,20 @@
+body {
+  background-image: url("../img/img_backgraund.jpg");
+  background-color: #cccccc;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+}
+
+.btn-small {
+  height: 24px;
+  line-height: 24px;
+  font-size: 10pt;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo {
+  width: 150px;
+}
